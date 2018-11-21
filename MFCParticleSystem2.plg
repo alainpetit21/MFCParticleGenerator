@@ -1,0 +1,1022 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MFCParticleSystem2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/MFCParticleSystem2.res" /d "NDEBUG" /d "_AFXDLL" "Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2.rc"" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP11D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MFCParticleSystem2.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\d3dmath.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MainFrm.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2Doc.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\Particle.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ParticleIndependant.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ParticlePhysique.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ParticulePhysiqueIndependant.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\SystemConfig.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP11D.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP11E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MFCParticleSystem2.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP11E.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP11F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MFCParticleSystem2.pdb" /machine:I386 /out:"Release/MFCParticleSystem2.exe" 
+.\Release\A3DObj.obj
+.\Release\AD3DApp.obj
+.\Release\ATerrain.obj
+.\Release\ATest3DApp.obj
+.\Release\ATexture1.obj
+.\Release\d3dmath.obj
+.\Release\LeftView.obj
+.\Release\MainFrm.obj
+.\Release\MFCParticleSystem2.obj
+.\Release\MFCParticleSystem2Doc.obj
+.\Release\MFCParticleSystem2View.obj
+.\Release\Particle.obj
+.\Release\ParticleIndependant.obj
+.\Release\ParticlePhysique.obj
+.\Release\ParticulePhysiqueIndependant.obj
+.\Release\PaticleSystem.obj
+.\Release\StdAfx.obj
+.\Release\SystemConfig.obj
+.\Release\TestSystem.obj
+.\Release\MFCParticleSystem2.res
+"..\..\Program Files\Microsoft Visual Studio\Vc98\Lib\Winmm.lib"
+..\..\mssdk7\lib\dxguid.lib
+..\..\mssdk7\lib\d3dx.lib
+..\..\mssdk7\lib\d3dxd.lib
+..\..\mssdk7\lib\d3dxof.lib
+..\..\mssdk7\lib\ddraw.lib
+..\..\mssdk7\lib\dinput.lib
+..\..\mssdk7\lib\dplayx.lib
+..\..\mssdk7\lib\DSETUP.lib
+..\..\mssdk7\lib\dsound.lib
+..\..\mssdk7\lib\d3dim.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP11F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+A3DObj.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp(6) : error C2065: 'm_pmtrlObjectMtrl1' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp(6) : error C2065: 'D3DMATERIAL7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp(7) : error C2065: 'm_pmtrlObjectMtrl2' : undeclared identifier
+AD3DApp.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(9) : error C2065: 'DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(10) : error C2065: 'Primary' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(11) : error C2065: 'BBuffer' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(17) : error C2065: 'Direct3D' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(17) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(20) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(21) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(22) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(40) : error C2065: 'DirectDrawCreateEx' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(40) : error C2065: 'IID_IDirectDraw7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(49) : error C2227: left of '->SetCooperativeLevel' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(57) : error C2227: left of '->SetCooperativeLevel' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(57) : error C2065: 'DDSCL_FPUSETUP' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(66) : error C2227: left of '->SetDisplayMode' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(73) : error C2227: left of '->SetDisplayMode' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(87) : error C2065: 'SurfaceDescription' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(88) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(92) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(93) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(93) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(95) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(99) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(100) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(100) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(101) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(104) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(108) : error C2227: left of '->GetPixelFormat' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(113) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(114) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(114) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(115) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(117) : error C2227: left of '->GetAttachedSurface' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(117) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(146) : error C2227: left of '->CreateClipper' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(157) : error C2227: left of '->SetClipper' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2065: 'LPDIRECTDRAWSURFACE7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2146: syntax error : missing ')' before identifier 'surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2350: 'CAD3DPlugin::AttachClipper' is not a static member
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2440: 'initializing' : cannot convert from 'int' to 'struct IDirectDrawClipper *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2059: syntax error : ')'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(166) : error C2143: syntax error : missing ';' before '{'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(166) : error C2447: missing function header (old-style formal list?)
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(211) : error C2143: syntax error : missing ';' before 'tag::id'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(211) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(211) : fatal error C1004: unexpected end of file found
+ATerrain.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(14) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(28) : error C2065: 'p_x' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(28) : error C2065: 'p_z' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(28) : error C2065: 'p_y' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(47) : error C2065: 'm_pmtrlObjectMtrl1' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(47) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(47) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(48) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(48) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(49) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(49) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(51) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(51) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(52) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(52) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(53) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(53) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(55) : error C2065: 'm_pmtrlObjectMtrl2' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(55) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(55) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(56) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(56) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(57) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(57) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(59) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(59) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(60) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(60) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(61) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(61) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(71) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(71) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(75) : error C2065: 'LPDIRECT3DDEVICE7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(76) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+ATest3DApp.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.cpp(6) : fatal error C1083: Cannot open include file: 'd3dMath.h': No such file or directory
+ATexture1.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(10) : error C2065: 'Surface' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(15) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(22) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(24) : error C2065: 'DDSURFACEDESC2' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(24) : error C2146: syntax error : missing ';' before identifier 'Desc'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(24) : error C2065: 'Desc' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(25) : error C2065: 'D3DDEVICEDESC7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(25) : error C2146: syntax error : missing ';' before identifier 'ddDesc'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(25) : error C2065: 'ddDesc' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(31) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(32) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(33) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(34) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(35) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(35) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(37) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(37) : error C2227: left of '->GetCaps' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(39) : error C2228: left of '.deviceGUID' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(39) : error C2228: left of '.deviceGUID' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(39) : error C2065: 'IID_IDirect3DTnLHalDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(40) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(40) : error C2228: left of '.dwCaps2' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(40) : error C2065: 'DDSCAPS2_TEXTUREMANAGE' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(42) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(42) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(44) : error C2228: left of '.dpcTriCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(44) : error C2228: left of '.dwTextureCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(46) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(46) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(46) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(47) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(47) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(47) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(50) : error C2228: left of '.dpcTriCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(50) : error C2228: left of '.dwTextureCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(52) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(52) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(53) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(53) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(55) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(55) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(58) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(58) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(59) : error C2227: left of '->Restore' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(69) : error C2227: left of '->GetDC' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(73) : error C2227: left of '->ReleaseDC' must point to class/struct/union
+d3dmath.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\d3dmath.cpp(10) : warning C4005: 'STRICT' : macro redefinition
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxv_w32.h(19) : see previous definition of 'STRICT'
+LeftView.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(92) : warning C4101: 'item2' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(91) : warning C4101: 'item' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(159) : warning C4101: 'item' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(166) : warning C4101: 'item' : unreferenced local variable
+MainFrm.cpp
+MFCParticleSystem2.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+MFCParticleSystem2Doc.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+MFCParticleSystem2View.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.h(23) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.h(37) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.h(10) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(331) : error C2039: 'D3DDevice' : is not a member of 'CATest3DPlugin'
+        Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(331) : error C2227: left of '->SetRenderState' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(331) : error C2065: 'D3DRENDERSTATE_AMBIENT' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(332) : error C2039: 'D3DDevice' : is not a member of 'CATest3DPlugin'
+        Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(332) : error C2227: left of '->SetRenderState' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(407) : error C2039: 'D3DDevice' : is not a member of 'CATest3DPlugin'
+        Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(407) : error C2039: 'DirectDraw' : is not a member of 'CATest3DPlugin'
+        Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(407) : error C2660: 'Init' : function does not take 3 parameters
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(481) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(482) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(483) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(511) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(538) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+Particle.cpp
+ParticleIndependant.cpp
+ParticlePhysique.cpp
+ParticulePhysiqueIndependant.cpp
+PaticleSystem.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.h(23) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.h(37) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(49) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(59) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(59) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(72) : warning C4244: '=' : conversion from 'float' to 'unsigned long', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(72) : warning C4244: '=' : conversion from 'unsigned long' to 'float', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2065: 'LPDIRECT3DDEVICE7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2146: syntax error : missing ')' before identifier 'p_d3dDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2182: 'OnDraw' : illegal use of type 'void'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2350: 'CPaticleSystem::OnDraw' is not a static member
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2059: syntax error : ')'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(107) : error C2143: syntax error : missing ';' before '{'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(107) : error C2447: missing function header (old-style formal list?)
+SystemConfig.cpp
+TestSystem.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.h(23) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.h(37) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.h(10) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(33) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(35) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(35) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(57) : warning C4244: '=' : conversion from 'const float' to 'unsigned long', possible loss of data
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+MFCParticleSystem2.exe - 371 error(s), 13 warning(s)
+<h3>
+--------------------Configuration: MFCParticleSystem2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/MFCParticleSystem2.res" /d "_DEBUG" /d "_AFXDLL" "Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2.rc"" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP120.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MFCParticleSystem2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\d3dmath.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MainFrm.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2Doc.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\Particle.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ParticleIndependant.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ParticlePhysique.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ParticulePhysiqueIndependant.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\SystemConfig.cpp"
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP120.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP121.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MFCParticleSystem2.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP121.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP122.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MFCParticleSystem2.pdb" /debug /machine:I386 /out:"Debug/MFCParticleSystem2.exe" /pdbtype:sept 
+.\Debug\A3DObj.obj
+.\Debug\AD3DApp.obj
+.\Debug\ATerrain.obj
+.\Debug\ATest3DApp.obj
+.\Debug\ATexture1.obj
+.\Debug\d3dmath.obj
+.\Debug\LeftView.obj
+.\Debug\MainFrm.obj
+.\Debug\MFCParticleSystem2.obj
+.\Debug\MFCParticleSystem2Doc.obj
+.\Debug\MFCParticleSystem2View.obj
+.\Debug\Particle.obj
+.\Debug\ParticleIndependant.obj
+.\Debug\ParticlePhysique.obj
+.\Debug\ParticulePhysiqueIndependant.obj
+.\Debug\PaticleSystem.obj
+.\Debug\StdAfx.obj
+.\Debug\SystemConfig.obj
+.\Debug\TestSystem.obj
+.\Debug\MFCParticleSystem2.res
+"..\..\Program Files\Microsoft Visual Studio\Vc98\Lib\Winmm.lib"
+..\..\mssdk7\lib\dxguid.lib
+..\..\mssdk7\lib\d3dx.lib
+..\..\mssdk7\lib\d3dxd.lib
+..\..\mssdk7\lib\d3dxof.lib
+..\..\mssdk7\lib\ddraw.lib
+..\..\mssdk7\lib\dinput.lib
+..\..\mssdk7\lib\dplayx.lib
+..\..\mssdk7\lib\DSETUP.lib
+..\..\mssdk7\lib\dsound.lib
+..\..\mssdk7\lib\d3dim.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP122.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+A3DObj.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp(6) : error C2065: 'm_pmtrlObjectMtrl1' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp(6) : error C2065: 'D3DMATERIAL7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\A3DObj.cpp(7) : error C2065: 'm_pmtrlObjectMtrl2' : undeclared identifier
+AD3DApp.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(9) : error C2065: 'DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(10) : error C2065: 'Primary' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(11) : error C2065: 'BBuffer' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(17) : error C2065: 'Direct3D' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(17) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(20) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(21) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(22) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(40) : error C2065: 'DirectDrawCreateEx' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(40) : error C2065: 'IID_IDirectDraw7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(49) : error C2227: left of '->SetCooperativeLevel' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(57) : error C2227: left of '->SetCooperativeLevel' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(57) : error C2065: 'DDSCL_FPUSETUP' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(66) : error C2227: left of '->SetDisplayMode' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(73) : error C2227: left of '->SetDisplayMode' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(87) : error C2065: 'SurfaceDescription' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(88) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(92) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(93) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(93) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(95) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(99) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(100) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(100) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(101) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(104) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(108) : error C2227: left of '->GetPixelFormat' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(113) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(114) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(114) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(115) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(117) : error C2227: left of '->GetAttachedSurface' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(117) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(146) : error C2227: left of '->CreateClipper' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(157) : error C2227: left of '->SetClipper' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2065: 'LPDIRECTDRAWSURFACE7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2146: syntax error : missing ')' before identifier 'surface'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2350: 'CAD3DPlugin::AttachClipper' is not a static member
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2440: 'initializing' : cannot convert from 'int' to 'struct IDirectDrawClipper *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(165) : error C2059: syntax error : ')'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(166) : error C2143: syntax error : missing ';' before '{'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(166) : error C2447: missing function header (old-style formal list?)
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(211) : error C2143: syntax error : missing ';' before 'tag::id'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(211) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\AD3DApp.cpp(211) : fatal error C1004: unexpected end of file found
+ATerrain.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(14) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(28) : error C2065: 'p_x' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(28) : error C2065: 'p_z' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(28) : error C2065: 'p_y' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(47) : error C2065: 'm_pmtrlObjectMtrl1' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(47) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(47) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(48) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(48) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(49) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(49) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(51) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(51) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(52) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(52) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(53) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(53) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(55) : error C2065: 'm_pmtrlObjectMtrl2' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(55) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(55) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(56) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(56) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(57) : error C2228: left of '.ambient' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(57) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(59) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(59) : error C2228: left of '.r' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(60) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(60) : error C2228: left of '.g' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(61) : error C2228: left of '.diffuse' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(61) : error C2228: left of '.b' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(71) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(71) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(75) : error C2065: 'LPDIRECT3DDEVICE7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATerrain.cpp(76) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+ATest3DApp.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATest3DApp.cpp(6) : fatal error C1083: Cannot open include file: 'd3dMath.h': No such file or directory
+ATexture1.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(10) : error C2065: 'Surface' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(15) : error C2227: left of '->Release' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(22) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(24) : error C2065: 'DDSURFACEDESC2' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(24) : error C2146: syntax error : missing ';' before identifier 'Desc'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(24) : error C2065: 'Desc' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(25) : error C2065: 'D3DDEVICEDESC7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(25) : error C2146: syntax error : missing ';' before identifier 'ddDesc'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(25) : error C2065: 'ddDesc' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(31) : error C2228: left of '.dwSize' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(32) : error C2228: left of '.dwFlags' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(33) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(34) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(35) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(35) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(37) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(37) : error C2227: left of '->GetCaps' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(39) : error C2228: left of '.deviceGUID' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(39) : error C2228: left of '.deviceGUID' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(39) : error C2065: 'IID_IDirect3DTnLHalDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(40) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(40) : error C2228: left of '.dwCaps2' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(40) : error C2065: 'DDSCAPS2_TEXTUREMANAGE' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(42) : error C2228: left of '.ddsCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(42) : error C2228: left of '.dwCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(44) : error C2228: left of '.dpcTriCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(44) : error C2228: left of '.dwTextureCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(46) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(46) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(46) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(47) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(47) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(47) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(50) : error C2228: left of '.dpcTriCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(50) : error C2228: left of '.dwTextureCaps' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(52) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(52) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(53) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(53) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(55) : error C2228: left of '.dwWidth' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(55) : error C2228: left of '.dwHeight' must have class/struct/union type
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(58) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(58) : error C2227: left of '->CreateSurface' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(59) : error C2227: left of '->Restore' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(69) : error C2227: left of '->GetDC' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\ATexture1.cpp(73) : error C2227: left of '->ReleaseDC' must point to class/struct/union
+d3dmath.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\d3dmath.cpp(10) : warning C4005: 'STRICT' : macro redefinition
+        c:\program files\microsoft visual studio\vc98\mfc\include\afxv_w32.h(19) : see previous definition of 'STRICT'
+LeftView.cpp
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(92) : warning C4101: 'item2' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(91) : warning C4101: 'item' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(159) : warning C4101: 'item' : unreferenced local variable
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\LeftView.cpp(166) : warning C4101: 'item' : unreferenced local variable
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator,std::pair<_TREEITEM * const,CSystemConfig *>,std::pair<_TREEITEM * const,CSystemConfig *> &,std::pair<_TREEITEM * const,CSystemConfig *> *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator,std::pair<_TREEITEM * const,CSystemConfig *>,std::pair<_TREEITEM * const,CSystemConfig *> const &,std::pair<_TREEITEM * const,CSystemConfig *> const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::pair<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator,std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::pair<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator,std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+MainFrm.cpp
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator,std::pair<_TREEITEM * const,CSystemConfig *>,std::pair<_TREEITEM * const,CSystemConfig *> &,std::pair<_TREEITEM * const,CSystemConfig *> *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator,std::pair<_TREEITEM * const,CSystemConfig *>,std::pair<_TREEITEM * const,CSystemConfig *> const &,std::pair<_TREEITEM * const,CSystemConfig *> const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::pair<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator,std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+c:\program files\microsoft visual studio\vc98\include\map(73) : warning C4786: 'std::pair<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator,std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\map(73) : while compiling class-template member function 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator __thiscall std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::end(void)'
+MFCParticleSystem2.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+MFCParticleSystem2Doc.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+MFCParticleSystem2View.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2146: syntax error : missing ';' before identifier 'CreateSurface'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(37) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(38) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(39) : error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2146: syntax error : missing ';' before identifier 'DirectDraw'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'LPDIRECTDRAW7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(51) : error C2501: 'DirectDraw' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2146: syntax error : missing ';' before identifier 'D3DDevice'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'LPDIRECT3DDEVICE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(52) : error C2501: 'D3DDevice' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2146: syntax error : missing ';' before identifier 'Direct3D'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'LPDIRECT3D7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(53) : error C2501: 'Direct3D' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2146: syntax error : missing ';' before identifier 'Primary'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(56) : error C2501: 'Primary' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2146: syntax error : missing ';' before identifier 'BBuffer'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(57) : error C2501: 'BBuffer' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2146: syntax error : missing ';' before identifier 'SurfaceDescription'
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'DDSURFACEDESC2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\ad3dapp.h(58) : error C2501: 'SurfaceDescription' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(18) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(19) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl1'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(25) : error C2501: 'm_pmtrlObjectMtrl1' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2146: syntax error : missing ';' before identifier 'm_pmtrlObjectMtrl2'
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'D3DMATERIAL7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\a3dobj.h(26) : error C2501: 'm_pmtrlObjectMtrl2' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(11) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\aterrain.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(20) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\paticlesystem.h(23) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\paticlesystem.h(37) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\testsystem.h(10) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(331) : error C2039: 'D3DDevice' : is not a member of 'CATest3DPlugin'
+        z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(331) : error C2227: left of '->SetRenderState' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(331) : error C2065: 'D3DRENDERSTATE_AMBIENT' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(332) : error C2039: 'D3DDevice' : is not a member of 'CATest3DPlugin'
+        z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(332) : error C2227: left of '->SetRenderState' must point to class/struct/union
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(407) : error C2039: 'D3DDevice' : is not a member of 'CATest3DPlugin'
+        z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(407) : error C2039: 'DirectDraw' : is not a member of 'CATest3DPlugin'
+        z:\work\alainpetit\code\mfcparticlegenerator\atest3dapp.h(8) : see declaration of 'CATest3DPlugin'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(407) : error C2660: 'Init' : function does not take 3 parameters
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(481) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(482) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(483) : warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(511) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\MFCParticleSystem2View.cpp(538) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+Particle.cpp
+ParticleIndependant.cpp
+ParticlePhysique.cpp
+ParticulePhysiqueIndependant.cpp
+PaticleSystem.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\paticlesystem.h(23) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\paticlesystem.h(37) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(12) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(13) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2146: syntax error : missing ';' before identifier 'Surface'
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing storage-class or type specifiers
+z:\work\alainpetit\code\mfcparticlegenerator\atexture1.h(15) : error C2501: 'Surface' : missing storage-class or type specifiers
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(49) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(59) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(59) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(72) : warning C4244: '=' : conversion from 'float' to 'unsigned long', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(72) : warning C4244: '=' : conversion from 'unsigned long' to 'float', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2065: 'LPDIRECT3DDEVICE7' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2146: syntax error : missing ')' before identifier 'p_d3dDevice'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2182: 'OnDraw' : illegal use of type 'void'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2350: 'CPaticleSystem::OnDraw' is not a static member
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(106) : error C2059: syntax error : ')'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(107) : error C2143: syntax error : missing ';' before '{'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\PaticleSystem.cpp(107) : error C2447: missing function header (old-style formal list?)
+SystemConfig.cpp
+TestSystem.cpp
+z:\work\alainpetit\code\mfcparticlegenerator\paticlesystem.h(23) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\paticlesystem.h(37) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+z:\work\alainpetit\code\mfcparticlegenerator\testsystem.h(10) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(33) : error C2061: syntax error : identifier 'LPDIRECT3DDEVICE7'
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(35) : error C2065: 'p_D3DDevice' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(35) : error C2065: 'p_DirectDraw' : undeclared identifier
+Z:\WORK\ALAINPETIT\CODE\MFCPARTICLEGENERATOR\TestSystem.cpp(57) : warning C4244: '=' : conversion from 'const float' to 'unsigned long', possible loss of data
+Generating Code...
+c:\program files\microsoft visual studio\vc98\include\xtree(236) : warning C4786: '__ehhandler$?insert@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@QAE?AU?$pair@Viterator@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@_N@2@ABU?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@2@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(236) : warning C4786: '__unwindfunclet$?insert@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@QAE?AU?$pair@Viterator@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@_N@2@ABU?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@2@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::pair<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator,bool>::pair<std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(512) : warning C4786: '__ehhandler$?_Insert@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@2@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(512) : warning C4786: '__unwindfunclet$?_Insert@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@2@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(522) : warning C4786: '__ehhandler$?_Lbound@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IBEPAU_Node@12@ABQAU_TREEITEM@@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(522) : warning C4786: '__unwindfunclet$?_Lbound@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IBEPAU_Node@12@ABQAU_TREEITEM@@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(65) : warning C4786: 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator::const_iterator' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(541) : warning C4786: '__ehhandler$?_Lrotate@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IAEXPAU_Node@12@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(541) : warning C4786: '__unwindfunclet$?_Lrotate@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IAEXPAU_Node@12@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(574) : warning C4786: '__ehhandler$?_Rrotate@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IAEXPAU_Node@12@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(574) : warning C4786: '__unwindfunclet$?_Rrotate@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IAEXPAU_Node@12@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(102) : warning C4786: '__ehhandler$?_Dec@const_iterator@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@QAEXXZ' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(102) : warning C4786: '__unwindfunclet$?_Dec@const_iterator@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@QAEXXZ$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(546) : warning C4786: '__ehhandler$?_Max@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@KAPAU_Node@12@PAU312@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(546) : warning C4786: '__unwindfunclet$?_Max@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@KAPAU_Node@12@PAU312@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(522) : warning C4786: '__ehhandler$?_Lbound@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IBEPAU_Node@12@ABQAU_TREEITEM@@@Z' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(522) : warning C4786: '__unwindfunclet$?_Lbound@?$_Tree@PAU_TREEITEM@@U?$pair@QAU_TREEITEM@@PAVCSystemConfig@@@std@@U_Kfn@?$map@PAU_TREEITEM@@PAVCSystemConfig@@U?$less@PAU_TREEITEM@@@std@@V?$allocator@PAVCSystemConfig@@@4@@3@U?$less@PAU_TREEITEM@@@3@V?$allocator@PAVCSystemConfig@@@3@@std@@IBEPAU_Node@12@ABQAU_TREEITEM@@@Z$0' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\xtree(65) : warning C4786: 'std::_Tree<_TREEITEM *,std::pair<_TREEITEM * const,CSystemConfig *>,std::map<_TREEITEM *,CSystemConfig *,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::_Kfn,std::less<_TREEITEM *>,std::allocator<CSystemConfig *> >::const_iterator::const_iterator' : identifier was truncated to '255' characters in the debug information
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+MFCParticleSystem2.exe - 371 error(s), 40 warning(s)
+</pre>
+</body>
+</html>
